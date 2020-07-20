@@ -1,0 +1,257 @@
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    background-color: #20242c;
+    color: #e2e2e2;
+    margin: 0px;
+    font-family: "Titillium web";
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+main {
+    height: 100%;
+}
+
+section {
+    position: relative;
+    box-shadow: 0px 5px 30px #141516;
+}
+
+h1 {
+    font-family: "Bebas neue";
+    font-size: 4rem;
+    margin: 0px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 1rem;
+    margin: 0px;
+}
+
+span {
+    color: orangered;
+}
+
+h1, .subtitle {
+    text-shadow: 0px 5px 30px #141516;
+}
+
+/* 
+=========
+HEADER
+=========
+*/
+
+.header-footer-container {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #141516;
+    box-shadow: 0px 5px 30px #141516;
+}
+
+.header-footer-logo-container {
+    display: flex;
+    align-items: flex-start;
+    width: 200px;
+    height: auto;
+    margin: 20px;
+}
+
+.header-nav {
+    display: flex;
+    position: relative;
+}
+
+.nav-item {
+    margin-right: 50px;
+}
+
+.nav-item > a {
+    font-family: "Bebas neue";
+    font-size: 1.5rem;
+    color: #e2e2e2;
+    transition: all ease 0.5s;
+}
+
+.nav-item > a:hover {
+    color: orangered;
+}
+
+/* 
+=========
+PARALLAX
+=========
+*/
+
+.parallax {
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+#parallax_image_one {
+    background-image: url("static/gallery.jpg");
+}
+
+#parallax_image_two {
+    background-image: url("static/skills.jpg");
+}
+
+#parallax_image_three {
+    background-image: url("static/about.jpg");
+}
+
+#parallax_image_four {
+    background-image: url("static/contacts.jpg");
+}
+
+.parallax-header {
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: calc(50% - 75px);
+}
+
+/* 
+=========
+PAGE CONTAINER
+=========
+*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 1200px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* 
+=========
+HOMEPAGE
+=========
+*/
+
+
+
+
+/* 
+=========
+GALLERY
+=========
+*/
+
+
+
+
+/* 
+=========
+SKILLS
+=========
+*/
+
+.skill-title {
+    text-align: left;
+}
+
+.skill-chart-base {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    border: 1px solid orangered;
+    margin: 10px 0px 50px 0px;
+    box-shadow: 0px 5px 30px #141516;
+}
+
+.skill-chart-base:last-child {
+    margin-bottom: 0px;
+}
+
+.skill-chart {
+    height: 10px;
+    background-color: orangered;
+}
+
+#photoshop_chart {
+    width: 95%;
+}
+
+#illustrator_chart {
+    width: 90%;
+}
+
+#premier_pro_chart {
+    width: 75%;
+}
+
+#after_effects_chart {
+    width: 65%;
+}
+
+#uxui_chart {
+    width: 85%;
+}
+
+#front_end_chart {
+    width: 75%;
+}
+
+#svg_chart {
+    width: 85%;
+}
+
+/* 
+=========
+ABOUT
+=========
+*/
+
+
+
+/* 
+=========
+CONTACTS
+=========
+*/
+
+
+
+/* 
+=========
+FOOTER
+=========
+*/
+
+#hosted {
+    margin-right: 50px;
+}

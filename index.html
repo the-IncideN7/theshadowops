@@ -1,372 +1,185 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="ADD DESCRIPTION HERE">
+        <meta name="keywords" content="design, graphic design, photography, retouch, portfolio">
+        <meta name="author" content="Yordan Nenov (the-IncideN7)">
+        <title>ShadowOps</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" href="static/favicon.png">
+    </head>
+    <body>
+        <header id="header">
+            <div class="header-footer-container">
+                <div class="header-footer-logo-container">
+                    <img src="static/logo.png" alt="header logo">
+                </div>
+                <ul class="header-nav">
+                    <li class="nav-item">
+                        <a href="#gallery">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills">SKILLS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacts">CONTACTS</a>
+                    </li>
+                </ul>    
+            </div>
+        </header>
+        <main>
+            <section id="homepage">
+                <div class="container">
+                    <div class="inner-container">
+                        <p><span>WEBSITE UNDER CONSTRUCTION</span></p>
+                        <h1>DESIGN IS PRACTICAL<span>LY</span> ART</h1>
+                        <p class="subtitle">In fact it is way more complicated than that. I doubt you are here for a lecture, so let's not go there.</p> 
+                    </div>
+                </div>
+            </section>
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="ADD DESCRIPTION HERE">
-	<meta name="keywords" content="design, graphic design, photography, photomanipulation, retouch">
-	<meta name="author" content="Yordan Nenov (the-IncideN7)">
-	<title>ShadowOps</title>
-	<link rel="icon" href="static/favicon.png" type="image/x-icon"> 
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-	<script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/TweenMax-latest-beta.js?v=999"></script>
-</head>
+            <div class="parallax" id="parallax_image_one">
+                <div class="parallax-header" id="paralax_deader_gallery">
+                    <h1>
+                        G<span>ALL</span>ERY
+                    </h1>
+                    <p class="subtitle">
+                        A small sample of what I love to do. Enjoy. Or don't.
+                    </p>
+                </div>
+            </div>
 
-<body>
-	<header id="header">
-		<div class="header-container">
-			<a id="header-logo-style" href="#">
-				<div class="header-logo">
-					<img id="website-logo" src="static/ShadowOps_logo.svg" alt="header logo">
-				</div>
-			</a>
-			
-			<ul class="header-nav">
-				<li class="nav-item"><a href="#gallery"><span>GALLERY</span></a></li>
-				<li id="nav-separator">|</li>
-				<li class="nav-item"><a href="#about"><span>ABOUT</span></a></li>
-				<li id="nav-separator">|</li>
-				<li class="nav-item"><a href="#contacts"><span>CONTACTS</span></a></li>
-			</ul>
-		</div>
-	</header>
-	
-	<main>
-		<section id="home">
-			<div class="container">
-				<h1>Homepage</h1>
-				
-				<div class="homepage-container-main">
-					<div class="homepage-container-inner">
-						<svg version="1.1" id="logo-animation" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 170 170" width="300px" height="300px" xml:space="preserve">
-							<g id="full-logo">
-								<g id="logo-outline">
-									<path id="green-outline-outer_1_" class="st0" d="M42.7,155.9C20,141.7,5,116.5,5,87.9C5,43.5,40.9,7.6,85.3,7.6
-										c41.1,0,75.1,31,79.7,70.8"/>
-									<path id="green-outline-inner_1_" class="st0" d="M42.7,155.9c-3.4-9.4-5.3-20.3-5.3-31.8c0-9.8,1.4-19.1,3.9-27.5
-										c-6,4-10.2,7.8-10.2,7.8c0-38.4,31.1-69.5,69.5-69.5c29.2,0,54.2,18,64.5,43.5"/>
-									<path id="white-outline-outer_1_" class="st1" d="M132.7,57.1c16.1,10.1,26.7,27.9,26.7,48.3c0,31.5-25.5,57-57,57
-										c-29.2,0-53.3-22-56.6-50.3"/>
-									<path id="white-outline-inner_1_" class="st1" d="M132.7,57.1c2.4,6.7,3.8,14.4,3.8,22.6c0,7-1,13.6-2.8,19.5
-										c4.3-2.8,7.2-5.5,7.2-5.5c0,27.3-22.1,49.3-49.3,49.3c-20.7,0-38.5-12.8-45.8-30.9"/>
-								</g>
-								<g id="logo">
-									<path id="green" class="st2" d="M41.2,96.6c-6,4-10.2,7.8-10.2,7.8c0-38.4,31.1-69.5,69.5-69.5c29.2,0,54.2,18,64.5,43.5
-										c-4.7-39.9-38.6-70.8-79.7-70.8C40.9,7.6,5,43.5,5,87.9c0,28.7,15,53.8,37.7,68c-3.4-9.4-5.3-20.3-5.3-31.8
-										C37.3,114.2,38.7,104.9,41.2,96.6z"/>
-									<path id="white" class="st3" d="M133.7,99.2c4.3-2.8,7.2-5.5,7.2-5.5c0,27.3-22.1,49.3-49.3,49.3c-20.7,0-38.5-12.8-45.8-30.9
-										c3.3,28.3,27.4,50.3,56.6,50.3c31.5,0,57-25.5,57-57c0-20.4-10.7-38.2-26.7-48.3c2.4,6.7,3.8,14.4,3.8,22.6
-										C136.5,86.7,135.5,93.3,133.7,99.2z"/>
-								</g>
-							</g>
-						</svg>
-					</div>
-					
-					<div class="homepage-container-inner">
-						<p>
-							Don’t fucking lie to yourself. What’s important is the fucking drive to see a project through no matter what.
-							You won’t get good at anything by doing it a lot fucking aimlessly. Respect your fucking craft.
-							Learn from fucking criticism. Fuck. Never let your guard down by thinking you’re fucking good enough.
-							<br><br>
-							You are not your fucking work. Can we all just agree as the greater design community to stop fucking talking about Comic Sans altogether?
-							It’s getting fucking old. Respect your fucking craft.
-							Can we all just agree as the greater design community to stop fucking talking about Comic Sans altogether?
-							It’s getting fucking old. Dedicate yourself to lifelong fucking learning.
-						</p>
-					</div>
-				</div>
-			</div>
-			
-			<img class="element" src="static/element.svg">
-			
-		</section>
-	
-		<section id="gallery">
-			<div class="container">
-				<h1 id="gallery-title">Gallery</h1>
-				
-				<div id="gallery-navigation" class="gallery-nav">
-					<a class="gallery-btn gallery-btn-active" id="photography-btn">Photography</a>
-					<a class="gallery-btn" id="svg-btn">SVG</a>
-					<a class="gallery-btn" id="ads-btn">Ads</a>
-					<a class="gallery-btn" id="uxui-btn">UX/UI</a>
-				</div>
-				
-				<div class="modal">
-					<div class="modal-content">
-						<img class="modal-image-after" src="">
-						<img class="modal-image-before" src="">
-						<a class="modal-a" href="#gallery">
-							<span class="modal-close-btn">Close X</span>
-						</a>
-						<a class="modal-a"><span class="modal-before-btn">Before</span></a>
-						<a class="modal-a"><span class="modal-after-btn">After</span></a>
-					</div>
-				</div>
-				
-				<div id="photography-container" class="gallery-container">
-				
-					<div class="gallery-image">
-						<img class="image" src="Gallery/Fb-1.jpg">
-						<p>
-							<strong>Image title</strong></br>
-							Add caption to the image here.</br>
-							<strong>Model: </strong> Name</br>
-							<strong>Photographer: </strong> Name</br>
-						</p>
-					</div>
-					
-					<div class="gallery-image">
-						<img class="image" src="Gallery/STG_1064.jpg">
-					</div>
-					
-					<div class="gallery-image">
-						<img class="image" src="Gallery/Fb-1.jpg">
-					</div>
-					
-					<div class="gallery-image">
-						<img class="image" src="Gallery/Fb-1.jpg">
-					</div>
-					
-					<div class="gallery-image">
-						<img class="image" src="Gallery/Fb-1.jpg">
-					</div>
-					
-					<div class="gallery-image">
-						<img class="image" src="Gallery/Fb-1.jpg">
-					</div>
-					
-				</div>
-				
-				<div id="svg-container" class="gallery-container">
-				
-					<div class="gallery-image">
-						<img class="image" src="Gallery/Fb-1.jpg">
-					</div>
-					
-					<div class="gallery-image">
-						<img class="image" src="Gallery/Fb-1.jpg">
-					</div>
-					
-				</div>
-				
-				<div id="ads-container" class="gallery-container">
-				
-					<div class="gallery-image">
-						<img class="image" src="Gallery/Fb-1.jpg">
-					</div>
-					
-					<div class="gallery-image">
-						<img class="image" src="Gallery/Fb-1.jpg">
-					</div>
-					
-				</div>
-				
-				<div id="uxui-container" class="gallery-container">
-				
-					<div class="gallery-image">
-						<img class="image" src="Gallery/Fb-1.jpg">
-					</div>
-					
-					<div class="gallery-image">
-						<img class="image" src="Gallery/Fb-1.jpg">
-					</div>
-					
-				</div>
-				
-			</div>
-			
-			<img class="element" src="static/element.svg">
-			
-		</section>
-		
-		<section id="about">
-			<div class="container">
-				<h1>About</h1>
-				<p>
-					Don’t fucking lie to yourself. What’s important is the fucking drive to see a project through no matter what.
-					You won’t get good at anything by doing it a lot fucking aimlessly. Respect your fucking craft.
-					Learn from fucking criticism. Fuck. Never let your guard down by thinking you’re fucking good enough.
-					<br><br>
-					You are not your fucking work. Can we all just agree as the greater design community to stop fucking talking about Comic Sans altogether?
-					It’s getting fucking old. Respect your fucking craft.
-					Can we all just agree as the greater design community to stop fucking talking about Comic Sans altogether?
-					It’s getting fucking old. Dedicate yourself to lifelong fucking learning.
-				</p>
-				
-				<img class="element" src="static/element.svg">
+            <section id="gallery">
+                <div class="container">
+                    <div class="inner-container">
+                        gallery content
+                    </div>
+                </div>
+            </section>
 
-			</div>
-		</section>
-		
-		<section id="skills">
-			<div class="container">
-				<h1>Skills</h1>
-				<p>
-					Don’t fucking lie to yourself. What’s important is the fucking drive to see a project through no matter what.
-					You won’t get good at anything by doing it a lot fucking aimlessly. Respect your fucking craft.
-					Learn from fucking criticism. Fuck. Never let your guard down by thinking you’re fucking good enough.
-				</p>
-				<div class="skill-container-main">
-					<div class="skill-container-inner">
-					
-						<div class="skill-container">
-							<p class="skill-title">Adobe Photoshop</p>
-							
-							<div class="skill-outline">
-								<div class="skill-fill" id="skill-photoshop"></div>
-							</div>
-						</div>
-						
-						<div class="skill-container">
-							<p class="skill-title">Adobe Illustrator</p>
-							
-							<div class="skill-outline">
-								<div class="skill-fill" id="skill-illustrator"></div>
-							</div>
-						</div>
-						
-						<div class="skill-container">
-							<p class="skill-title">Adobe Premier Pro</p>
-							
-							<div class="skill-outline">
-								<div class="skill-fill" id="skill-premier"></div>
-							</div>
-						</div>
-						
-						<div class="skill-container">
-							<p class="skill-title">UX/UI</p>
-							
-							<div class="skill-outline">
-								<div class="skill-fill" id="skill-uxui"></div>
-							</div>
-						</div>
-					
-					</div>
-					<div class="skill-container-inner">
-					
-						<div class="skill-container">
-							<p class="skill-title">HTML</p>
-							
-							<div class="skill-outline">
-								<div class="skill-fill" id="skill-html"></div>
-							</div>
-						</div>
-						
-						<div class="skill-container">
-							<p class="skill-title">CSS</p>
-							
-							<div class="skill-outline">
-								<div class="skill-fill" id="skill-css"></div>
-							</div>
-						</div>
-						
-						<div class="skill-container">
-							<p class="skill-title">JS</p>
-							
-							<div class="skill-outline">
-								<div class="skill-fill" id="skill-js"></div>
-							</div>
-						</div>
-						
-						<div class="skill-container" id="skill-container-last">
-							<p class="skill-title">SVG</p>
-							
-							<div class="skill-outline">
-								<div class="skill-fill" id="skill-svg"></div>
-							</div>
-						</div>
-						
-					</div>
-				</div>
-				
-				<img class="element" src="static/element.svg">
-				
-			</div>
-			
-		</section>
-		
-		<section id="clients">
-			<div class="container">
-				<h1>Clients</h1>
-				
-				<div class="clients-container">
-					<a href="https://adhash.org" target="_blank">
-						<div class="client">
-							<img class="client-logo" src="clients/AdHash.svg" alt="AdHash logo">
-						</div>
-					</a>
-					
-					<a href="https://inspirebulgaria.com/" target="_blank">
-						<div class="client">
-							<img class="client-logo" src="clients/InspireBulgaria.svg" alt="Kidz Welcome logo">
-						</div>
-					</a>
-					
-					<a href="https://zwerit.com/" target="_blank">
-						<div class="client">
-							<img class="client-logo" src="clients/Zwerit.svg" alt="Zwerit logo">
-						</div>
-					</a>
-					
-				</div>
-			</div>
-			
-			<img class="element" src="static/element.svg">
-			
-		</section>
-		
-		<section id="contacts">
-		
-			<div class="container">
-				<h1>Contacts</h1>
-				<div class="contacts-container">
-				
-					<p>Feel free to drop me an email at <strong><u>shadowops@fastmail.com</u></strong> or use the buttons below.</p>
-					
-					<ul class="social-media">
-						<li>
-							<a href="mailto:yordannnenoff@gmail.com" target="_blank">
-								<img class="social-media-icons" src="static/email.svg" alt="email icon">
-							</a>
-						</li>
-				
-						<li>
-							<a href="https://t.me/TheShadowOps" target="_blank">
-								<img class="social-media-icons" src="static/telegram.svg" alt="instagram logo">
-							</a>
-						</li>
-						<li>
-							<a href="https://www.instagram.com/the_inciden7/" target="_blank">
-								<img class="social-media-icons" src="static/instagram.svg" alt="instagram logo">
-							</a>
-						</li>
-						<li>
-							<a href="https://www.shutterstock.com/g/yordannenov/" target="_blank">
-								<img class="social-media-icons" src="static/shutterstock.svg" alt="shutterstock logo">
-							</a>
-						</li>
-					</ul>
-					
-				</div>
-			</div>
-		</section>
-		
-	</main>
-	
-	<footer id="footer">
-		<div class="footer-container">
-			<p class="copyright">ShadowOps v.0.2 - 2020</p>
-			
-			
-			
-		</div>
-	</footer>
+            <div class="parallax" id="parallax_image_two">
+                <div class="parallax-header" id="paralax_deader_skills">
+                    <h1>
+                        SK<span>ILL</span>S
+                    </h1>
+                    <p class="subtitle">
+                        The relevant kind. 
+                        Hours of videogames and the amount of beer and peanuts I can stuff
+                        in my face are currently irrelevant.
+                    </p>
+                </div>
+            </div>
 
-	<script type="text/javascript" src="script.js"></script>
-	
-</body>
+            <section id="skills">
+                <div class="container">
+                    <div class="inner-container">
+                        <p class="skill-title">
+                            Adobe Photoshop
+                        </p>
+                        <div class="skill-chart-base">
+                            <div class="skill-chart" id="photoshop_chart"></div>
+                        </div>
 
+                        <p class="skill-title">
+                            Adobe Illustrator
+                        </p>
+                        <div class="skill-chart-base">
+                            <div class="skill-chart" id="illustrator_chart"></div>
+                        </div>
+
+                        <p class="skill-title">
+                            Adobe Premier Pro
+                        </p>
+                        <div class="skill-chart-base">
+                            <div class="skill-chart" id="premier_pro_chart"></div>
+                        </div>
+
+                        <p class="skill-title">
+                            Adobe After Effects
+                        </p>
+                        <div class="skill-chart-base">
+                            <div class="skill-chart" id="after_effects_chart"></div>
+                        </div>
+
+                        <p class="skill-title">
+                            UX/UI
+                        </p>
+                        <div class="skill-chart-base">
+                            <div class="skill-chart" id="uxui_chart"></div>
+                        </div>
+
+                        <p class="skill-title">
+                            Front-end (HTML/CSS/JS)
+                        </p>
+                        <div class="skill-chart-base">
+                            <div class="skill-chart" id="front_end_chart"></div>
+                        </div>
+
+                        <p class="skill-title">
+                            SVG
+                        </p>
+                        <div class="skill-chart-base">
+                            <div class="skill-chart" id="svg_chart"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="parallax" id="parallax_image_three">
+                <div class="parallax-header" id="paralax_deader_about">
+                    <h1>
+                        AB<span>OUT</span>
+                    </h1>
+                    <p class="subtitle">
+                        You expected my face? Well my boot will have to sufice.
+                    </p>
+                </div>
+            </div>
+
+            <section id="about">
+                <div class="container">
+                    <div class="inner-container">
+                        about content
+                    </div>
+                </div>
+            </section>
+
+            <div class="parallax" id="parallax_image_four">
+                <div class="parallax-header" id="paralax_deader_contacts">
+                    <h1>
+                        CONT<span>ACT</span>S
+                    </h1>
+                    <p class="subtitle">
+                        In case you want to put your sanity in jeopardy by talking to me.
+                    </p>
+                </div>
+            </div>
+
+            <section id="contacts">
+                <div class="container">
+                    <div class="inner-container">
+                        <p>
+                            Send me an email at <span>"ENTER EMAIL HERE"</span> or use one of the buttons below:
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <div class="header-footer-container">
+                    <div class="header-footer-logo-container">
+                        <img src="static/logo.png" alt="header logo">
+                    </div>
+                    <p id="hosted">Hosted on <span>GitHub</span></p>
+                </div>
+            </footer>
+
+        </main>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
 </html>
