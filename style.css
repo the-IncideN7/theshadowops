@@ -394,6 +394,11 @@ MEDIA QUERY
 }
 
 @media (max-width: 1000px) {
+
+    h1 {
+        font-size: 3rem;
+    }
+
     /* header */
 
     .header-footer-container {
