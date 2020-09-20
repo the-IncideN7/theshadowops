@@ -106,11 +106,14 @@ HEADER
     margin-right: 25px;
     flex-wrap: wrap;
     line-height: 1rem;
-    justify-content: space-between;
 }
 
-.nav-item:not(:last-child) {
+.nav-item {
     margin-right: 50px;
+}
+
+.nav-item:last-child {
+    margin-right: 0px;
 }
 
 .nav-item > a {
@@ -411,6 +414,10 @@ MEDIA QUERY
 
     .nav-item {
         margin-bottom: 25px;
+    }
+
+    .nav-item:last-child {
+        margin-right: 50px;
     }
 
     .nav-item > a {
