@@ -430,8 +430,10 @@ MEDIA QUERY
         margin-bottom: 25px;
     }
 
+    .nav-item,
     .nav-item:last-child {
-        margin-right: 50px;
+        margin-right: 10px;
+        margin-left: 10px;
     }
 
     .nav-item > a {
