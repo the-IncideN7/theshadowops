@@ -57,12 +57,14 @@ h1 {
     font-size: 4rem;
     margin: 0px;
     text-align: center;
+    font-weight: 400;
 }
 
 h3 {
     font-family: "Bebas neue";
     margin: 0px;
     text-align: center;
+    font-weight: 400;
 }
 
 p {
@@ -133,6 +135,7 @@ HEADER
     font-weight: 700;
     color: #e2e2e2;
     transition: all ease 0.5s;
+    font-weight: 400;
 }
 
 .nav-item > a:hover {
@@ -201,9 +204,10 @@ PARALLAX
 
 .parallax-header {
     position: relative;
-    width: 100%;
+    max-width: 90%;
     left: 0;
     top: calc(50% - 75px);
+    margin: 0 auto;
 }
 
 /*
