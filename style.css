@@ -132,10 +132,9 @@ HEADER
 .nav-item > a {
     font-family: "Bebas neue";
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 400;
     color: #e2e2e2;
     transition: all ease 0.5s;
-    font-weight: 400;
 }
 
 .nav-item > a:hover {
@@ -165,6 +164,7 @@ BACK TO TOP BUTTON
     transition: all ease 0.5s;
     display: none;
     outline: none;
+    font-weight: 400;
 }
 
 .back-to-top:hover {
