@@ -7,6 +7,13 @@ html {
     scrollbar-width: thin;
 }
 
+@font-face {
+    font-family: "Bebas neue";
+    src: url(static\fonts\BebasNeue-Bold.otf);
+    font-family: "Titillum web";
+    src: url(static\fonts\TitilliumWeb-Regular.ttf);
+}
+
 body {
     background-color: #20242c;
     color: #e2e2e2;
