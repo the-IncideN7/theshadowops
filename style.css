@@ -3,6 +3,10 @@ html {
     height: 100%;
 }
 
+* {
+    scrollbar-width: thin;
+}
+
 body {
     background-color: #20242c;
     color: #e2e2e2;
@@ -61,7 +65,7 @@ h1, h3, .subtitle {
     opacity: 0.75;
 }
 
-/* 
+/*
 =========
 HEADER
 =========
@@ -73,7 +77,6 @@ HEADER
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 100px;
     background-color: #141516;
     box-shadow: 0px 5px 75px #141516;
 }
@@ -83,7 +86,7 @@ HEADER
     align-items: flex-start;
     width: 200px;
     height: auto;
-    margin: 20px;
+    margin: 25px;
 }
 
 .logo {
@@ -93,9 +96,13 @@ HEADER
 .header-nav {
     display: flex;
     position: relative;
+    margin-right: 25px;
+    flex-wrap: wrap;
+    line-height: 1rem;
+    justify-content: space-between;
 }
 
-.nav-item {
+.nav-item:not(:last-child) {
     margin-right: 50px;
 }
 
@@ -111,7 +118,7 @@ HEADER
     color: #f95c1e;
 }
 
-/* 
+/*
 =========
 BACK TO TOP BUTTON
 =========
@@ -141,7 +148,7 @@ BACK TO TOP BUTTON
     color: #f95c1e;
 }
 
-/* 
+/*
 =========
 PARALLAX
 =========
@@ -153,7 +160,7 @@ PARALLAX
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-   
+
 }
 
 #parallax_image_one {
@@ -179,7 +186,7 @@ PARALLAX
     top: calc(50% - 75px);
 }
 
-/* 
+/*
 =========
 PAGE CONTAINER
 =========
@@ -203,7 +210,7 @@ PAGE CONTAINER
     margin-bottom: 100px;
 }
 
-/* 
+/*
 =========
 HOMEPAGE
 =========
@@ -212,7 +219,7 @@ HOMEPAGE
 
 
 
-/* 
+/*
 =========
 GALLERY
 =========
@@ -247,7 +254,7 @@ GALLERY
     opacity: 0.5;
 }
 
-/* 
+/*
 =========
 SKILLS
 =========
@@ -323,7 +330,11 @@ SKILLS
     width: 85%;
 }
 
-/* 
+#graphic_design_chart {
+    width: 85%;
+}
+
+/*
 =========
 ABOUT
 =========
@@ -337,7 +348,7 @@ ABOUT
     margin-bottom: 0px;
 }
 
-/* 
+/*
 =========
 CONTACTS
 =========
@@ -345,13 +356,13 @@ CONTACTS
 
 .contacts-icons-container {
     display: flex;
-    width: 185px;
+    width: 215px;
     margin: 0 auto;
     justify-content: space-between;
 }
 
 .contacts-icon {
-    width: 37px;
+    width: 35px;
     cursor: pointer;
     margin-top: 50px;
     transition: all ease 0.5s;
@@ -362,7 +373,7 @@ CONTACTS
     opacity: 1;
 }
 
-/* 
+/*
 =========
 MEDIA QUERY
 =========
@@ -373,11 +384,47 @@ MEDIA QUERY
         background-attachment: scroll;
     }
 
+}
+
+@media (max-width: 1000px) {
+    /* header */
+
+    .header-footer-container {
+        flex-direction: column;
+    }
+
+    .header-nav {
+        margin: 0px 25px 0px 25px;
+    }
+
+    .nav-item {
+        margin-bottom: 25px;
+    }
+
+    .nav-item > a {
+        font-size: 1.25rem;
+    }
+
+    /* gallery */
+
+    #inner_container_gallery {
+        flex-direction: column;
+    }
+    .gallery-container {
+        width: 100%;
+    }
+
+    .gallery-image:last-child {
+        margin-bottom: 50px;
+    }
+
+    /* skills */
+
     .container-skills {
         flex-direction: column;
         justify-content: space-between;
     }
-    
+
     .inner-container-skills {
         max-width: 100%;
     }
@@ -391,39 +438,6 @@ MEDIA QUERY
     }
 
     .inner-container-skills:first-child > .skill-chart-base{
-        margin-bottom: 50px;
-    }
-
-}
-
-@media (max-width: 1000px) {
-    /* header */
-
-    .header-footer-container {
-        flex-direction: column;
-        height: 150px;
-        justify-content: space-evenly;
-    }
-
-    .nav-item {
-        margin-left: 13px;
-        margin-right: 13px;
-    }
-
-    .nav-item > a {
-        font-size: 1rem;
-    }
-
-    /* gallery */
-
-    #inner_container_gallery {
-        flex-direction: column;
-    }
-    .gallery-container {
-        width: 100%;
-    }
-
-    .gallery-image:last-child {
         margin-bottom: 50px;
     }
 }
