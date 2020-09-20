@@ -10,15 +10,15 @@ html {
 @font-face {
     font-family: "Bebas neue";
     src: url(static\fonts\BebasNeue-Bold.otf);
-    src: url(static\fonts\BebasNeue-Bold.otf) format('woff2');
-    src: url(static\fonts\BebasNeue-Bold.otf) format('woff');
-    src: url(static\fonts\BebasNeue-Bold.otf) format('truetype');
+    src: url(static\fonts\BebasNeue-Bold.otf) format('woff2'),
+        url(static\fonts\BebasNeue-Bold.otf) format('woff'),
+        url(static\fonts\BebasNeue-Bold.otf) format('truetype');
 
     font-family: "Titillum web";
     src: url(static\fonts\TitilliumWeb-Regular.ttf);
-    src: url(static\fonts\TitilliumWeb-Regular.ttf) format('woff2');
-    src: url(static\fonts\TitilliumWeb-Regular.ttf) format('woff');
-    src: url(static\fonts\TitilliumWeb-Regular.ttf) format('truetype');
+    src: url(static\fonts\TitilliumWeb-Regular.ttf) format('woff2'),
+        url(static\fonts\TitilliumWeb-Regular.ttf) format('woff'),
+        url(static\fonts\TitilliumWeb-Regular.ttf) format('truetype');
 }
 
 body {
