@@ -62,17 +62,22 @@
                     <div class="container-inner" id="container_inner_gallery">
                         <div class="gallery-container" id="photography_gallery">
                             <h3>PHOTO<span>GRAPH</span>Y</h3>
-                            <img  class="gallery-image" src="static/gallery.jpg" alt="">
-                            <img class="gallery-image" src="static/CRS_2673.png" alt="">
-                            <img class="gallery-image" src="static/gallery.jpg" alt="">
+                            <img  class="gallery-image" src="static/gallery/photography/touken-ranbu-after.png" alt="">
+                            <img class="gallery-image" src="static/gallery/photography/harley-quinn-after.jpg" alt="">
+                            <img class="gallery-image" src="static/gallery/photography/spider-gwen-after.jpg" alt="">
+                            <img class="gallery-image" src="static/gallery/photography/predator-after.jpg" alt="">
+                            <img class="gallery-image" src="static/gallery/photography/halloween-after.jpg" alt="">
                         </div>
-                        <div class="gallery-container" id="uxui_gallery">
+                        <div class="gallery-container" id="web_gallery">
                             <h3><span>W</span>EB</h3>
-                            <img class="gallery-image" src="static/gallery.jpg" alt="">
+                            <img class="gallery-image" src="static/gallery/web/adhash-heatmap.png" alt="">
+                            <img class="gallery-image" src="static/gallery/web/adhash-dashboard.png" alt="">
                         </div>
                         <div class="gallery-container" id="vector_gallery">
                             <h3>VEC<span>TO</span>R</h3>
-                            <img class="gallery-image" src="static/CRS_2673.png" alt="">
+                            <img class="gallery-image" src="static/gallery/vector/Zwerit_logo_v1.3_light.svg" alt="">
+                            <img class="gallery-image" src="static/gallery/vector/Yliths.svg" alt="">
+                            <img class="gallery-image" src="static/gallery/vector/protocol.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -343,9 +348,15 @@
         <div class="modal">
             <div class="modal-content">
                 <img class="close-btn" src="static/close.svg" alt="close icon">
-                <h3>Title goes here</h3>
-                <p class="subtitle">Subtitle goes here</p>
-                <img class="modal-image" src="static/CRS_2673.png" alt="">
+                <h3 id="modal_title">Title goes here</h3>
+                <p id="modal_subtitle" class="subtitle">Subtitle goes here</p>
+                <div class="modal-btn-holder">
+                    <button id="after_btn" class="before-after-button active">After</button>
+                    <button id="before_btn" class="before-after-button">Before</button>
+                </div>
+                <img id="modal_image_after" class="modal-image" src="static/CRS_2673.png" alt="">
+                <img id="modal_image_before" class="modal-image" src="static/CRS_2673.png" alt="">
+                <p id="modal_image_view">Tap on the image to view it in a separate window.</p>
             </div>
         </div>
 
