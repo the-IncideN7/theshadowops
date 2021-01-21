@@ -20,7 +20,7 @@ var vector_images = [
     ['title', 'subtitle', 'after', 'before'],
     ['Zwerit logo', 'Logo redesign for the swiss QA company <a href="https://zwerit.com/" target="_blank">Zwerit</a>. Animated version of the logo is available in the header of their website.', 'static/gallery/vector/Zwerit_logo_v1.3_light.svg', ''],
     ['Ylith\'s logo and assets', '<a href="http://ylithsastrology.com/" target="_blank">Ylith\'s</a> astrology blog', 'static/gallery/vector/Yliths.svg', ''],
-    ['The AdHash protocol', 'Animated version <a href="file:///D:/MyStuff/the%20ShadowOps/website/static/gallery/protocolAnimation.html" target="_blank">here</a>. Best viewed on large screens.', 'static/gallery/vector/protocol.svg', '']
+    ['The AdHash protocol', 'Animated version <a href="https://theshadowops.com/static/gallery/protocolAnimation.html" target="_blank">here</a>. Best viewed on large screens.', 'static/gallery/vector/protocol.svg', '']
 ];
 
 // fix animation link.
