@@ -4,23 +4,22 @@
 
 var photography_images = [
     ['title', 'subtitle', 'after', 'before'],
-    ['Tsuru', 'Touken Ranbu cosplay by <span><a href="https://www.instagram.com/elentarii/" target="_blank">Elentarii</a></span>', 'static/gallery/photography/touken-ranbu-after.png', 'static/gallery/photography/touken-ranbu-before.png'],
+    ['Tsuru', 'Touken Ranbu cosplay by <span><a href="https://www.instagram.com/elentarii/" target="_blank">Elentarii</a></span>', 'static/gallery/photography/touken-ranbu-after.jpg', 'static/gallery/photography/touken-ranbu-before.jpg'],
     ['Harley Quinn', 'Photo by <span><a href="https://www.instagram.com/studiogepardphotography/" target="_blank">Gabriel Galchev</a></span>', 'static/gallery/photography/harley-quinn-after.jpg', 'static/gallery/photography/harley-quinn-before.jpg'],
-    ['Spider Gwen', 'Photo by <span><a href="https://www.instagram.com/crossmachine/" target="_blank">Svilen Marinov</a></span>', 'static/gallery/photography/spider-gwen-after.jpg', 'static/gallery/photography/spider-gwen-before.jpg'],
-    ['Predator', 'Photo by <span><a href="https://www.instagram.com/saromon1989/" target="_blank">Ivan Kodzhanikolov</a></span>', 'static/gallery/photography/predator-after.jpg', 'static/gallery/photography/predator-before.jpg'],
-    ['Grim Ripper', 'With my brother from another mother <span><a href="https://www.instagram.com/geassneko/" target="_blank">Milen Vahev</a></span>', 'static/gallery/photography/halloween-after.jpg', 'static/gallery/photography/halloween-before.jpg']
+    ['Grim Ripper', 'With my brother from another mother <span><a href="https://www.instagram.com/geassneko/" target="_blank">Milen Vachev</a></span>', 'static/gallery/photography/halloween-after.jpg', 'static/gallery/photography/halloween-before.jpg'],
+    ['Predator', 'Photo by <span><a href="https://www.instagram.com/saromon1989/" target="_blank">Ivan Kodzhanikolov</a></span>', 'static/gallery/photography/predator-after.jpg', 'static/gallery/photography/predator-before.jpg']
 ];
 var web_images = [
     ['title', 'subtitle', 'after', 'before'],
     ['Heatmap user interface', 'For tracking ad clicks and ad control. Part of the <a href="https://adhash.org" target="_blank">AdHash</a> platform.', 'static/gallery/web/adhash-heatmap.png', ''],
     ['Client user interface', 'Real-time data for in-debt ad performance tracking. Part of the <a href="https://adhash.org" target="_blank">AdHash</a> platform.', 'static/gallery/web/adhash-dashboard.png', ''],
-    ['title3', 'subtitle3', 'after3', 'before3']
+    ['Party invitation', '<a href="https://www.facebook.com/HonestCosplay/" target="_blank">Honest Cosplay</a> b-day party invitation.', 'static/gallery/web/bday-inv.jpg', '']
 ];
 var vector_images = [
     ['title', 'subtitle', 'after', 'before'],
-    ['Zwerit logo', 'Logo redesign for the swiss QA company <a href="https://zwerit.com/" target="_blank">Zwerit</a>. Animated version of the logo is available in the header of their website.', 'static/gallery/vector/Zwerit_logo_v1.3_light.svg', ''],
+    ['The AdHash protocol', 'Animated version <a href="https://theshadowops.com/static/gallery/protocolAnimation.html" target="_blank">here</a>. Best viewed on large screens.', 'static/gallery/vector/protocol.svg', ''],
     ['Ylith\'s logo and assets', '<a href="http://ylithsastrology.com/" target="_blank">Ylith\'s</a> astrology blog', 'static/gallery/vector/Yliths.svg', ''],
-    ['The AdHash protocol', 'Animated version <a href="https://theshadowops.com/static/gallery/protocolAnimation.html" target="_blank">here</a>. Best viewed on large screens.', 'static/gallery/vector/protocol.svg', '']
+    ['Zwerit logo', 'Logo redesign for the swiss QA company <a href="https://zwerit.com/" target="_blank">Zwerit</a>. Their idea was to incorporate 3 modulo 10 somehow.', 'static/gallery/vector/Zwerit_logo_v1.3_light.svg', '']
 ];
 
 // fix animation link.
@@ -103,7 +102,6 @@ $('.close-btn').click(function() {
     // reset images
     $('#modal_image_after').css('display', 'block');
     $('#modal_image_before').css('display', 'none');
-
     backToTopBtn.style.display = "block";
 });
 
