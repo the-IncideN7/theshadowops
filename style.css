@@ -245,6 +245,7 @@ h1, h3 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 50px;
 }
 
 #web_gallery :nth-child(2) {
@@ -280,6 +281,10 @@ h1, h3 {
           filter: grayscale(75%);
   -webkit-box-shadow: 0px 10px 20px #141516;
           box-shadow: 0px 10px 20px #141516;
+}
+
+.gallery-image:last-child {
+  margin-bottom: 50px;
 }
 
 .modal-background {
@@ -342,6 +347,7 @@ h1, h3 {
   max-height: 1000px;
   -o-object-fit: contain;
      object-fit: contain;
+  width: 100%;
 }
 
 .modal #modal_subtitle {
