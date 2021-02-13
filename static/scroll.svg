@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="scroll" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-9 0 20 40" style="enable-background:new -9 0 20 40;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E2E2E2;}
+</style>
+<circle id="border" class="st0" cx="1" cy="10" r="4"/>
+<path id="border_1_" class="st0" d="M1,2c4.4,0,8,3.6,8,8v20c0,4.4-3.6,8-8,8c-4.4,0-8-3.6-8-8V10C-7,5.6-3.4,2,1,2 M1,0L1,0
+	C-4.5,0-9,4.5-9,10v20c0,5.5,4.5,10,10,10h0c5.5,0,10-4.5,10-10V10C11,4.5,6.5,0,1,0L1,0z"/>
+</svg>
