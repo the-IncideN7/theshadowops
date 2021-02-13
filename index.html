@@ -2,10 +2,18 @@
 <html lang="en-US">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="ADD DESCRIPTION HERE">
-        <meta name="keywords" content="design, graphic design, photography, retouch, portfolio">
-        <meta name="author" content="Yordan Nenov (the-IncideN7)">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="ADD DESCRIPTION HERE"/>
+        <meta name="keywords" content="design, graphic design, photography, retouch, portfolio"/>
+        <meta name="author" content="Yordan Nenov (the-IncideN7)"/>
+
+        <meta property="og:url" content="https://theshadowops.com"/>
+        <meta property="og:title" content="Shadow Ops"/>
+        <meta property="og:description" content="ADD DESCRIPTION HERE"/>
+        <meta name="twitter:site" content="https://theshadowops.com" />
+        <meta name="twitter:title" content="Shadow Ops"/>
+        <meta name="twitter:description" content="ADD DESCRIPTION HERE"/>
+
         <title>Shadow Ops</title>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap" rel="stylesheet">
@@ -16,321 +24,266 @@
     </head>
     <body>
         <header id="header">
-            <div class="header-footer-container">
-                <div class="header-footer-logo-container">
+            <div class="header-container">
+                <div class="header-logo-container">
                     <img class="logo" src="static/the-ShadowOps-logo.png" alt="header logo">
                 </div>
                 <ul class="header-nav">
                     <li class="nav-item">
-                        <a href="#gallery">gallery</a>
+                        <a id="nav-skills">skills</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#skills">skills</a>
+                        <a id="nav-projects">projects</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#about">about</a>
+                        <a id="nav-about">about</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contacts">contacts</a>
+                        <a id="nav-contacts">contacts</a>
                     </li>
                 </ul>
             </div>
         </header>
+
         <main>
             <section id="homepage">
                 <div class="container">
-                    <div class="container-inner">
-                        <h1>Design is practical<span>ly</span> art</h1>
-                        <p class="subtitle">The art of solving problems to be specific.</p>
-                    </div>
-                </div>
-            </section>
-
-            <div class="parallax" id="parallax_image_one">
-                <div class="parallax-header" id="parallax_deader_gallery">
-                    <h1>
-                        G<span>all</span>ery
-                    </h1>
-                    <p class="subtitle">
-                        A small sample of my work.
-                    </p>
-                </div>
-            </div>
-
-            <section id="gallery">
-                <div class="container">
-                    <div class="container-inner" id="container_inner_gallery">
-                        <div class="gallery-container" id="photography_gallery">
-                            <h3>Photo<span>graph</span>y</h3>
-                            <img  class="gallery-image" src="static/gallery/photography/touken-ranbu-after.jpg" alt="">
-                            <img class="gallery-image" src="static/gallery/photography/harley-quinn-after.jpg" alt="">
-                            <img class="gallery-image" src="static/gallery/photography/halloween-after.jpg" alt="">
-                            <img class="gallery-image" src="static/gallery/photography/predator-after.jpg" alt="">
+                    <div id="hero_section" class="container-inner">
+                        <div class="hero-title">
+                            <h1>Front-end <span>development</span><br> I just <span>love</span> it</h1>
+                            <p>Hi, I'm Yordan and that's what I do.
+                                <br>
+                                For fun and for a living.
+                            </p>
+                            <div class="scroll-down">
+                                <a id="scroll_icon">
+                                    <img class="scroll-icon" src="static/scroll.svg" alt="scroll down icon">
+                                </a>
+                            </div>
                         </div>
-                        <div class="gallery-container" id="web_gallery">
-                            <h3><span>W</span>EB</h3>
-                            <img class="gallery-image" src="static/gallery/web/adhash-heatmap.png" alt="">
-                            <img class="gallery-image" src="static/gallery/web/adhash-dashboard.png" alt="">
-                            <img class="gallery-image" src="static/gallery/web/bday-inv.jpg" alt="">
-                        </div>
-                        <div class="gallery-container" id="vector_gallery">
-                            <h3>Vec<span>to</span>r</h3>
-                            <img class="gallery-image" src="static/gallery/vector/protocol.svg" alt="">
-                            <img class="gallery-image" src="static/gallery/vector/Yliths.svg" alt="">
-                            <img class="gallery-image" src="static/gallery/vector/Zwerit_logo_v1.3_light.svg" alt="">
+                        <div class="hero-image-holder">
+                            <img class="hero-image" src="static/projects/adhash-deck.png" alt="">
+                            <img id="hero_img_one" class="hero-icon" src="static/vector-graphics.svg" alt="">
+                            <img id="hero_img_two" class="hero-icon" src="static/front-end.svg" alt="">
+                            <img id="hero_img_three" class="hero-icon" src="static/photoshop.svg" alt="">
+                            <img id="hero_img_four" class="hero-icon" src="static/ux-ui.svg" alt="">
+                            <img id="hero_img_five" class="hero-icon" src="static/illustrator.svg" alt="">
                         </div>
                     </div>
                 </div>
             </section>
 
-            <div class="parallax" id="parallax_image_two">
-                <div class="parallax-header" id="parallax_deader_skills">
+            <div class="parallax" id="parallax_image_skills">
+                <div class="parallax-header" id="parallax_header_skills">
                     <h1>
                         S<span>kill</span>s
                     </h1>
-                    <p class="subtitle">
-                        At least those that make sense.
+                    <p>
+                        Weapons charged and ready.
                     </p>
                 </div>
             </div>
 
             <section id="skills">
                 <div class="container">
-                    <div class="container-inner" id="container_inner_skills">
-
-                        <div class="card">
-                            <div class="card-info">
-                                <h3 class="skill-title">
-                                    Front-end development
-                                </h3>
-                                <div class="skill-icon">
-                                    <img src="static/front-end.svg" alt="front-end icon">
-                                </div>
-                                <p class="skill-subtitle">
-                                    HTML, CSS, SASS, JS, JQUERY, GIT.
-                                    <br>
-                                    <br>
-                                    I love front-end. It brings me equal parts of challenge and joy.
-                                </p>
-                            </div>
-                            <div class="skill-chart" id="front_end_chart"></div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-info">
-                                <h3 class="skill-title">
-                                    UX/UI
-                                </h3>
-                                <div class="skill-icon">
-                                    <img src="static/ux-ui.svg" alt="ux-ui icon">
-                                </div>
-                                <p class="skill-subtitle">
-                                    Mainly business-oriented.
-                                    <br>
-                                    <br>
-                                    Client panels, websites, landing pages, etc. I'd like to get my feet wet in the gaming industry too.
-                                </p>
-                            </div>
-                            <div class="skill-chart" id="uxui_chart"></div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-info">
-                                <h3 class="skill-title">
-                                    GRAPHIC DESIGN
-                                </h3>
-                                <div class="skill-icon">
-                                    <img src="static/graphic-design.svg" alt="graphic design icon">
-                                </div>
-                                <p class="skill-subtitle">
-                                    Web oriented rather than print.
-                                    <br>
-                                    <br>
-                                    Grids and alignments are my strongest weapons and greatest weakness.
-                                </p>
-                            </div>
-                            <div class="skill-chart" id="graphic_design_chart"></div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-info">
-                                <h3 class="skill-title">
-                                    Vector graphics
-                                </h3>
-                                <div class="skill-icon">
-                                    <img src="static/vector-graphics.svg" alt="vector graphic icon">
-                                </div>
-                                <p class="skill-subtitle">
-                                    If it can be a vector, it should be a vector.
-                                    <br>
-                                    <br>
-                                    Static resources and SVG animations with <a href="https://greensock.com/" target="_blank">GSAP</a>. I've done some brand identity design too.
-                                </p>
-                            </div>
-                            <div class="skill-chart" id="svg_chart"></div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-info">
-                                <h3 class="skill-title">
-                                    Adobe Photoshop
-                                </h3>
-                                <div class="skill-icon">
-                                    <img src="static/photoshop.svg" alt="photoshop icon">
-                                </div>
-                                <p class="skill-subtitle">
-                                    7+ years of experience.
-                                    <br>
-                                    <br>
-                                    Photo manipulation, design resources, mock-ups, splash art, cover photos. I've tried everything.
-                                </p>
-                            </div>
-                            <div class="skill-chart" id="photoshop_chart"></div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-info">
-                                <h3 class="skill-title">
-                                    Adobe Illustrator
-                                </h3>
-                                <div class="skill-icon">
-                                    <img src="static/illustrator.svg" alt="illustrator icon">
-                                </div>
-                                <p class="skill-subtitle">
-                                    5+ years of experience.
-                                    <br>
-                                    <br>
-                                    Design resources, SVG, wireframes, icons, logos. Both RGB & CMYK.
-                                </p>
-                            </div>
-                            <div class="skill-chart" id="illustrator_chart"></div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-info">
-                                <h3 class="skill-title">
-                                    Adobe Premiere Pro
-                                </h3>
-                                <div class="skill-icon">
-                                    <img src="static/premiere-pro.svg" alt="premiere pro icon">
-                                </div>
-                                <p class="skill-subtitle">
-                                    Advertising and presentational videos.
-                                    <br>
-                                    <br>
-                                    Not my main occupation but I have fun with it every now and then.
-                                </p>
-                            </div>
-                            <div class="skill-chart" id="premiere_pro_chart"></div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-info">
-                                <h3 class="skill-title">
-                                    Adobe After Effects
-                                </h3>
-                                <div class="skill-icon">
-                                    <img src="static/after-effects.svg" alt="after effects icon">
-                                </div>
-                                <p class="skill-subtitle">
-                                    Usually to support Premier projects.
-                                    <br>
-                                    <br>
-                                    Super useful if you have to animate a maze and a line running from start to finish.
-                                </p>
-                            </div>
-                            <div class="skill-chart" id="after_effects_chart"></div>
-                        </div>
-
+                    <div id="container_inner_skills" class="container-inner">
+                        <div class="card card-skills"></div>
+                        <div class="card card-skills"></div>
+                        <div class="card card-skills"></div>
+                        <div class="card card-skills"></div>
+                        <div class="card card-skills"></div>
+                        <div class="card card-skills"></div>
+                        <div class="card card-skills"></div>
+                        <div class="card card-skills"></div>
                     </div>
                 </div>
             </section>
 
-            <div class="parallax" id="parallax_image_three">
-                <div class="parallax-header" id="parallax_deader_about">
+            <div class="parallax" id="parallax_image_projects">
+                <div class="parallax-header" id="parallax_header_projects">
+                    <h1>
+                        <span>pro</span>jects
+                    </h1>
+                    <p>
+                        A small sample of my work.
+                    </p>
+                </div>
+            </div>
+
+            <section id="projects">
+                <div class="container">
+                    <div id="container_inner_projects" class="container-inner">
+
+                        <div class="card card-projects">
+                            <div class="projects-image-container">
+                                <img class="projects-image" src="static/projects/adhash-deck.png" alt="">
+                            </div>
+                            <div class="projects-info-container">
+                                <div class="project-info">
+                                    <h2>Ad<span>Hash</span></h2>
+                                    <p>
+                                        projects description goes here
+                                        <br>
+                                        Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium.
+                                    </p>
+                                </div>
+                                <button id="adhash-button" class="see-more" onclick="redirectToProject(this)">See more</button>
+                            </div>
+                            <div class="card-background"></div>
+                        </div>
+
+                        <div class="card card-projects even">
+                            <div class="projects-image-container">
+                                <img class="projects-image" src="static/projects/hc-bcard.png" alt="">
+                            </div>
+                            <div class="projects-info-container">
+                                <div class="project-info">
+                                    <h2>Honest <span>Cosplay</span></h2>
+                                    <p>
+                                        projects description goes here
+                                        <br>
+                                        Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium.
+                                    </p>
+                                </div>
+                                <button id="honest-cosplay-button"class="see-more" onclick="redirectToProject(this)">See more</button>
+                            </div>
+                            <div class="card-background"></div>
+                        </div>
+
+                        <div class="card card-projects">
+                            <div class="projects-image-container">
+                                <img class="projects-image" src="static/projects/Inspire-Bulgaria-color.svg" alt="">
+                            </div>
+                            <div class="projects-info-container">
+                                <div class="project-info">
+                                    <h2><span>Inspire</span> bulgaria</h2>
+                                    <p>
+                                        projects description goes here
+                                        <br>
+                                        Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium.
+                                    </p>
+                                </div>
+                                <button id="inspire-bulgaria-button" class="see-more" onclick="redirectToProject(this)">See more</button>
+                            </div>
+                            <div class="card-background"></div>
+                        </div>
+
+                        <div class="card card-projects even">
+                            <div class="projects-image-container">
+                                <img class="projects-image" src="static/projects/yliths-signs.svg" alt="">
+                            </div>
+                            <div class="projects-info-container">
+                                <div class="project-info">
+                                    <h2><span>Ylith's</span> astrology</h2>
+                                    <p>
+                                        projects description goes here
+                                        <br>
+                                        Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium.
+                                    </p>
+                                </div>
+                                <button id="yliths-astrology-button" class="see-more" onclick="redirectToProject(this)">See more</button>
+                            </div>
+                            <div class="card-background"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="parallax" id="parallax_image_about">
+                <div class="parallax-header" id="parallax_header_about">
                     <h1>
                         Ab<span>out</span>
                     </h1>
-                    <p class="subtitle">
-                        If you are interested about who is behind this website.
+                    <p>
+                        A bit of insight about me.
                     </p>
                 </div>
             </div>
 
             <section id="about">
                 <div class="container">
-                    <div class="container-inner">
-                        <h3>
-                            <span>Who</span> am I?
-                        </h3>
-                        <p class="subtitle subtitle-about">
-                            I am Yordan. Around the web you will likely find me as the-IncideN7. How it came to be is a story for another time.
-                            </br>
-                            I can't help but be attracted to a good design, meaningful logo, stunning movie or a great game. I just love visual things.
-                            </br>
-                            </br>
-                            And I've been lucky enough or worked hard enough to end up in design as a profession.
-                            The idea of creating something meaningful and usable out of a blank sheet of paper is equal to light magic to me.
-                        </p>
+                    <div id="container_inner_about" class="container-inner">
+                        <div class="card card-about">
+                            <h2>
+                                <span>Who</span> am I
+                            </h2>
+                            <p class="subtitle">
+                                I am Yordan. Around the web you will likely find me as the-IncideN7. How it came to be is a story for another time.
+                                </br>
+                                </br>
+                                I can't help but be attracted to a good design, meaningful logo, stunning movie or a great game. I just love visual things.
+                                </br>
+                                </br>
+                                And I've been lucky enough or worked hard enough to end up in design as a profession.
+                                The idea of creating something meaningful and usable out of a blank sheet of paper is equal to light magic to me.
+                                <br>
+                                <br>
+                                Why <a href="https://theshadowops.com">ShadowOps</a>? As internet users we rarely know by name the designer of a website we like or our the lead developer of our favorite app. We <i>operate</i> in the background. In the <i>shadows</i>, hence the name.
+                            </p>
+                            <div class="card-background"></div>
+                        </div>
 
-                        <h3>
-                            <span>Pro</span>fessional experience
-                        </h3>
-                        <p class="subtitle subtitle-about">
-                            Since 2013 I am actively working in design space. I started as a freelance contractor on various projects. It was mostly
-                            low value work, since I had little experience.
-                            </br>
-                            </br>
-                            Mid 2015 I've joined the <a href="https://adhash.org" target="_blank">AdHash</a> team. Or the company's predecessor to be precise.
-                            Online advertising was the main subject matter. We've used high-end Google ad tech like DoubleClick for both
-                            Advertisers and Publishers, Rich media ad formats, Re-targeting etc.
-                            </br>
-                            </br>
-                            Our work in advertisement, we are also internet users. And dealing with the market inside-out was a wake up call for us all. The ad tech was broken.
-                            Logically we decided to build our own platform and make advertising meaningful and enjoyable experience for the users (like ourselves) and profitable and transparent for the content creators.
-                            <br>
-                            You can read more on our <a href="https://adhash.org" target="_blank">website</a>.
-                            </br>
-                            </br>
-                            Before 2013 my work experience is way too messy. Tried a lot of different jobs and the good thing about that is experience.
-                            <i>"I know a thing or two about a thing or two."</i> as a wise man once said. And that helps my career in an unimaginable ways.
-                        </p>
+                        <div class="card card-about">
+                            <h2>
+                                <span>Pro</span>fessional experience
+                            </h2>
+                            <p class="subtitle">
+                                Since 2013 I am actively working in design space. I started as a freelance contractor on various projects.
+                                </br>
+                                </br>
+                                Mid 2015 I've joined the <a href="https://adhash.org" target="_blank">AdHash</a> team. Or the company's predecessor to be precise.
+                                Online advertising was the main subject matter. We've used high-end Google ad tech like DoubleClick for both
+                                Advertisers and Publishers, Rich media ad formats, Re-targeting etc.
+                                </br>
+                                </br>
+                                Our experience in advertising and dealing with the market inside-out was a wake up call for us. The ad tech industry is broken.
+                                So we decided to build our own platform and make advertising meaningful and enjoyable experience for the user (like ourselves) and profitable and transparent for the content creators.
+                                <br>
+                                You can read more on our <a href="https://adhash.org" target="_blank">website</a>.
+                            </p>
+                            <div class="card-background"></div>
+                        </div>
 
-                        <h3>
-                            Spare <span>time</span>.
-                        </h3>
-                        <p class="subtitle subtitle-about">
-                            I'll gladly dedicate some hours to StarCraft II or one of the other hundred games I love.
-                            </br>
-                            </br>
-                            I do love photo manipulations. I can spend hours upon hours in Photoshop. One of the most interesting and challenging areas for me is cosplay photography.
-                            </br>
-                            </br>
-                            For some odd reasons I enjoy reading astrophysics and psychology.
-                            </br>
-                            </br>
-                            I am a total music freak. I am always with headphones on. OK, not always but 85% of my awake hours.
-                            And last but not least, I'm trying to find some time for sports and workout.
-                        </p>
+                        <div class="card card-about">
+                            <h2>
+                                Spare <span>time</span>
+                            </h2>
+                            <p class="subtitle">
+                                I do love photo manipulations. I can spend hours upon hours in Photoshop. One of the most interesting and challenging areas for me is cosplay photography. Check my <a href="https://www.instagram.com/the_inciden7/" target="_blank">Instagram</a> if you are interested.
+                                </br>
+                                </br>
+                                I'll gladly spend some hours playing StarCraft II or one of the other hundred games I love.
+                                </br>
+                                </br>
+                                For some odd reasons I enjoy reading and watching videos about astrophysics and psychology. You may call me a nerd.
+                                </br>
+                                </br>
+                                I am a total music freak. I am always with headphones on. OK, not always but 85% of my awake hours.
+                                </br>
+                                </br>
+                                And last but not least, I'm trying to make some time for sports and workout.
+                            </p>
+                            <div class="card-background"></div>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <div class="parallax" id="parallax_image_four">
-                <div class="parallax-header" id="parallax_deader_contacts">
+            <div class="parallax" id="parallax_image_contacts">
+                <div class="parallax-header" id="parallax_header_contacts">
                     <h1>
                         Cont<span>act</span>s
                     </h1>
                     <p class="subtitle">
-                        Let's talk. Be it work or any other inquiry you might have.
+                        Let's talk.
                     </p>
                 </div>
             </div>
 
             <section id="contacts">
                 <div class="container">
-                    <div class="container-inner">
-                        <p class="subtitle">
+                    <div id="container_inner_contacts" class="container-inner">
+                        <p>
                             Send me an email at <a href="mailto:yordan@theshadowops.com">yordan@theshadowops.com</a> or use one of the buttons below:
                         </p>
                         <div class="contacts-icons-container">
@@ -350,8 +303,8 @@
                                 </a>
                             </div>
                             <div class="contacts-icon">
-                                <a href="https://www.shutterstock.com/g/yordannenov/" target="_blank">
-                                    <img src="static/shutterstock.svg" alt="shutterstock icon">
+                                <a href="https://linkedin.com/public-profile/in/yordannenov" target="_blank">
+                                    <img src="static/linkedin.svg" alt="linked in icon">
                                 </a>
                             </div>
                         </div>
@@ -360,33 +313,28 @@
             </section>
 
             <footer>
-                <div class="header-footer-container">
-                    <div class="header-footer-logo-container">
+                <div class="footer-container">
+                    <div class="footer-logo-container">
                         <img class="logo" src="static/the-ShadowOps-logo.png" alt="header logo">
                     </div>
+                    <p class="footer-info">Hosted on <a href="https://github.com/the-IncideN7/theshadowops" target="_blank">GitHub</a> - 2021</p>
                 </div>
             </footer>
-
         </main>
 
-        <div class="modal-background"></div>
-        <div class="modal">
-            <div class="modal-content">
-                <img class="close-btn" src="static/close.svg" alt="close icon">
-                <h3 id="modal_title">Title goes here</h3>
-                <p id="modal_subtitle" class="subtitle">Subtitle goes here</p>
-                <div class="modal-btn-holder">
-                    <button id="after_btn" class="before-after-button active">After</button>
-                    <button id="before_btn" class="before-after-button">Before</button>
-                </div>
-                <img id="modal_image_after" class="modal-image" src="" alt="">
-                <img id="modal_image_before" class="modal-image" src="" alt="">
-                <p id="modal_image_view">Tap on the image to view it in a separate window.</p>
-            </div>
-        </div>
-
-        <button class="back-to-top" onclick="backToTop()">BACK TO TOP</button>
-
         <script type="text/javascript" src="script.js"></script>
+        <script>
+            populateSkills();
+
+            scrollAnim($("#parallax_header_skills"));
+            scrollAnim($("#parallax_header_projects"));
+            scrollAnim($("#parallax_header_about"));
+            scrollAnim($("#parallax_header_contacts"));
+
+            scrollAnim($("#container_inner_skills"));
+            scrollAnim($("#container_inner_projects"));
+            scrollAnim($("#container_inner_about"));
+            scrollAnim($("#container_inner_contacts"));
+        </script>
     </body>
 </html>
