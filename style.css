@@ -127,17 +127,6 @@ button:hover {
   max-width: 90%;
   left: 0;
   margin: 0 auto;
-}
-
-.parallax-header#parallax_header_skills, .parallax-header#parallax_header_projects, .parallax-header#parallax_header_about, .parallax-header#parallax_header_contacts {
-  top: 300px;
-  opacity: 0;
-  -webkit-transition: all ease 0.5s;
-  transition: all ease 0.5s;
-}
-
-.parallax-header#parallax_header_skills.active, .parallax-header#parallax_header_projects.active, .parallax-header#parallax_header_about.active, .parallax-header#parallax_header_contacts.active {
-  opacity: 1;
   top: calc(50% - 43px);
 }
 
@@ -280,18 +269,6 @@ footer {
   margin-top: 100px;
   margin-bottom: 100px;
   position: relative;
-}
-
-.container-inner#container_inner_skills, .container-inner#container_inner_projects, .container-inner#container_inner_about, .container-inner#container_inner_contacts {
-  top: 100px;
-  opacity: 0;
-  -webkit-transition: all ease 0.5s;
-  transition: all ease 0.5s;
-}
-
-.container-inner#container_inner_skills.active, .container-inner#container_inner_projects.active, .container-inner#container_inner_about.active, .container-inner#container_inner_contacts.active {
-  opacity: 1;
-  top: 0;
 }
 
 /*

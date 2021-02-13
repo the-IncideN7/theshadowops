@@ -69,18 +69,18 @@ backToMain = function() {
 
 // fix animation link.
 
-scrollAnim = function(elem) {
-    $(window).scroll(function() {
-        var top_of_element = elem.offset().top;
-        var bottom_of_element = elem.offset().top + elem.outerHeight();
-        var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
-        var top_of_screen = $(window).scrollTop();
+// scrollAnim = function(elem) {
+//     $(window).scroll(function() {
+//         var top_of_element = elem.offset().top;
+//         var bottom_of_element = elem.offset().top + elem.outerHeight();
+//         var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+//         var top_of_screen = $(window).scrollTop();
 
-        if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
-            elem.addClass("active");
-        } 
-        // else {
-        //     elem.removeClass("active");
-        // }
-    });
-}
+//         if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
+//             elem.addClass("active");
+//         } 
+//         else {
+//             elem.removeClass("active");
+//         }
+//     });
+// }
